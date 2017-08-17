@@ -5,15 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './app.component.html'
   // styles: [`.myColor {color:white}`]
 })
-export class AppComponent implements OnInit {
- 
 
-
- 
-  constructor(){
-
-  }
-  ngOnInit(){import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -57,6 +49,4 @@ export class AppComponent {
 }
 
     
-  }
- 
-}
+  
