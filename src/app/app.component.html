@@ -5,6 +5,7 @@
         <hr>
         <button (click)="onAddServer()"> Add server </button>
         <hr>
+        <h4> App status: {{ (appStatus | async) || 'Loading.. ' }}</h4>
       <ul class="list-group">
         <li
           class="list-group-item"
